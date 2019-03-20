@@ -1,4 +1,7 @@
 import $ from 'jquery'
 
-console.log('sum')
+const sum = (a, b) => {
+    return a + b
+}
+console.log(sum(5,3))
 
